@@ -4,7 +4,7 @@ import streamlit as st
 st.write("""# Hello Sopon""")
 run = st.checkbox('Run')
 FRAME_WINDOW = st.image([])
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture(1)
 #img = cv2.imread("Aeroplane.jpg")
 #img = img[:,:,::-1]
 while (run):
